@@ -113,6 +113,14 @@ function search(searchFor) {
         }
     }
 
+    //Search skills
+    for (let i = 0; i < skillsNames.length; i++) {
+        if (skillsNames[i].toLowerCase().includes(searchFor.toLowerCase())) {
+            document.getElementById(`skill_${skillsNames[i]}`).classList.add('searchResult')
+        }
+    }
+    
+
 
     searched = true
 }

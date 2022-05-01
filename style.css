@@ -1,0 +1,40 @@
+#info {
+	border: 7px solid red;
+    padding: 1%;
+    float:right;
+    shape-outside: margin-box;
+    max-width: 55%;
+    background-color: var(--navColor);
+    color: var(--textColor);
+    min-height: 100ex;
+	border-radius: 0.5em;
+}
+
+.centerself {
+	display: flex;
+	justify-content: center;
+}
+
+.talent, .skill {
+	border: 1px solid black;
+    border-radius: 0;
+    padding: 0.3%;
+    background-color: lavender;
+    margin: 0.1em;
+}
+
+.talent:hover, .skill:hover {
+	background-color: lightgray;
+}
+.talent:hover:active:not(:disabled), .skill:hover:active:not(:disabled) {
+    background-color: gray;
+    color:white;
+}
+.talent.searchResult, .skill.searchResult {
+	background-color: lime;
+    color: black;
+    box-shadow: lime 0px 0px 10px 2px
+}
+main {
+	padding: 0 1em;
+}

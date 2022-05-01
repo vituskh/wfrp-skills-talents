@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WFRP Skills & Talents</title>
+    <script src="https://vituskh.github.io/vitusresources/script.js"></script> <!--Vitus's navbar & dark theme osv-->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+        <h3>Der mangler stadig talents og skills. Du kan selv tilføje ting på <a href="https://github.com/vituskh/wfrp-skills-talents">github-siden</a>.</h3>
+        <section>
+            <p>Search:</p>
+            <input type="text" id="search" onkeyup="search(this.value)">
+        </section>
+    
+        <section id="selector">
+            <p>Skills:</p>
+            <section id="skills">
+    
+            </section>
+            <p>Talents:</p>
+            <section id="talents">
+    
+            </section>
+        </section>
+    
+        <div id="info" style="height: 80vh; width: 50vw; position: absolute; top: 10%; right:5%">
+            <strong>Navn: </strong><p id=infoName></p>
+            <div id="onlyforskills" hidden>
+                <strong>Characteristic: </strong><p id="infoChar"></p>
+                <strong>Type: </strong><p id="infoType"></p>
+            </div>
+            <strong>Description: </strong><p id="infoDescription"></p>
+        </div>
+
+    </main>
+    
+   
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix fra bogen</title>
+    <script src="fixfrabogen.js"></script>
+</head>
+<body>
+    <p>
+        Genererer JSON fra beskrivelserne i bogen.
+        Sørger også for at fixe store og små bogstaver.
+    </p>
+    
+    
+    <select onchange="changed(this)"><option value="talent" selected>Talent</option><option value="skill">Skill</option></select>
+    <p class="is-size-3">Input:</p>
+    <div id="talent">
+        <input type="text" id="talentname" placeholder="Navn" onchange="talentChange()"><br>
+        <input type="text" id="talentdescription" placeholder="Description" onchange="talentChange()"><br>
+    </div>
+    <div id="skill" hidden>
+        <input type="text" id="skillname" placeholder="Navn" onchange="skillChange()"><br>
+        <input type="text" id="skillchar" placeholder="Characteristic (fx Int, WS eller Fel)" onchange="skillChange()"><br>
+        <input type="text" id="skilltype" placeholder="Type (B for Basic, A for Advanced)" onchange="skillChange()"><br>
+        <input type="text" id="skilldescription" placeholder="Description" onchange="skillChange()"><br>
+    </div>
+    <p class="is-size-3">Output:</p>
+    <textarea id="output" cols="100" rows="10"></textarea>
+</body>
+</html>

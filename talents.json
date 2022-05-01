@@ -1,0 +1,14 @@
+{
+	"Acute hearing":{
+		"description": "Your hearing is exceptionally good. You gain a +20% bonus on Perception Skill Tests that involve listening."
+	},
+	"Aethyric Attunement":{
+		"description": "You are well attuned to the Aethyr and can more easily manipulate the Winds of Magic. You gain +10% bonus on Channelling and Magical Sense Skill Tests."
+	},
+	"Alley Cat":{
+		"description": "You are at home on the streets. You gain a +10% bonus on Concealment and Silent Move Skill Tests when in urban locations."
+	},
+	"Ambidextrous":{
+		"description": "You can use either hand equally well. You do not suffer the normal -20% WS or BS penalty when using a weapon in your secondary hand"
+	}
+}
